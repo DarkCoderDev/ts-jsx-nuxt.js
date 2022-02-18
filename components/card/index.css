@@ -1,0 +1,23 @@
+.card {
+	display: flex;
+	flex-flow: nowrap column;
+	justify-content: center;
+	box-sizing: border-box;
+	width: 320px;
+	height: 200px;
+	padding: 0 30px;
+
+	border-radius: 8px;
+	box-shadow: 0 4px 16px rgb(0 26 52 / 8%);
+
+	cursor: pointer;
+}
+
+.circle {
+	width: 74px;
+	height: 74px;
+	margin-bottom: 30px;
+
+	background: #f4f8ff;
+	border-radius: 30px;
+}

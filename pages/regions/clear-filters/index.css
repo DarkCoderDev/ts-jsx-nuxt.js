@@ -1,0 +1,22 @@
+.clearFilter {
+	position: relative;
+}
+
+.countFilters {
+	position: absolute;
+	top: -3px;
+	right: -6px;
+	z-index: 2;
+
+	padding: 1px 5px;
+
+	color: white;
+
+	background: #3ac267;
+	border-radius: 50%;
+}
+
+.clearFilterIcon {
+	position: relative;
+	top: 3px;
+}

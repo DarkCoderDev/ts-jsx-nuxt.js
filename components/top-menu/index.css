@@ -1,0 +1,35 @@
+.topMenu {
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	justify-content: space-between;
+	height: 64px;
+	padding: 0 20px;
+
+	box-shadow: 0 4px 16px rgb(0 26 52 / 16%);
+}
+
+.topMenuLeftSide {
+	display: flex;
+	justify-content: space-evenly;
+	width: 170px;
+}
+
+.topMenuRightSide {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.topMenuUsername {
+	margin: 0 25px;
+
+	font-weight: normal;
+	font-size: 16px;
+	font-style: normal;
+	line-height: 22px;
+}
+
+.topMenuLogout {
+	cursor: pointer;
+}

@@ -1,0 +1,62 @@
+.section {
+	width: 1370px;
+	margin: 55px auto;
+
+	--transition-delay: all 0.5s ease;
+}
+
+.sectionHead {
+	position: relative;
+	z-index: 2;
+
+	background: #fbfcfd;
+}
+
+.sectionHeading {
+	display: inline-flex;
+	align-items: center;
+
+	cursor: pointer;
+}
+
+.sectionCount {
+	margin-left: 6px;
+
+	color: #bfcad4;
+}
+
+.sectionArrowIcon {
+	margin: 0 0 20px 15px;
+
+	transition: var(--transition-delay);
+}
+
+.sectionArrowIconOpened {
+	transform: rotate(0.5turn);
+}
+
+.sectionBox {
+	height: 0;
+
+	transition: var(--transition-delay);
+}
+
+.sectionBoxOpened {
+	height: 200px;
+}
+
+.sectionContainer {
+	display: flex;
+	justify-content: space-between;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+	transition: var(--transition-delay);
+}
+
+.fade-enter,
+.fade-leave-to {
+	transform: translateY(-90px);
+	opacity: 0;
+}

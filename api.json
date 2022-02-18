@@ -1,0 +1,14 @@
+[
+  {
+    "service": "ff-billing-settings-api",
+    "namespace": "whc",
+    "version": "",
+    "env": "stg"
+  },
+  {
+    "service": "wms-csharp-web-login",
+    "namespace": "wms",
+    "version": "",
+    "env": "stg"
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "version": "1.13.0",
+  "project": {
+    "description": "Биллинг",
+    "serviceName": "ff-billing-settings",
+    "businessOwnerEmail": "bbaliev@ozon.ru",
+    "technicalOwnerEmail": "bbaliev@ozon.ru",
+    "opsgenie": "wh_wms_fe_team",
+    "slack": "wms-frontend-errors-stg",
+    "menuItems": {
+      "index": "Главная"
+    },
+    "initAsGitRepository": true
+  },
+  "wms": {
+    "serviceName": "ff-billing-settings",
+    "menuItems": {
+      "index": "Главная"
+    },
+    "serviceItems": [
+      {
+        "service": "ff-billing-settings-api",
+        "namespace": "whc",
+        "version": "",
+        "env": "stg"
+      },
+      {
+        "service": "wms-csharp-web-login",
+        "namespace": "wms",
+        "version": "",
+        "env": "stg"
+      }
+    ],
+    "claimsUrl": "/api/wms-csharp-web-settings/v1/authorize/claims"
+  }
+}

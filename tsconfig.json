@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "extends": "@fe/tsconfig/base.json",
+  "compilerOptions": {
+    "types": [
+      "@fe/types",
+      "@types/jest"
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "~/*": [
+        "./*"
+      ],
+      "@/*": [
+        "./*"
+      ]
+    }
+  }
+}
